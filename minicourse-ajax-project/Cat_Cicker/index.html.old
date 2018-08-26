@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <hr>
+
+    <h2 id="greeting" class="greeting">This is my cat clicker</h2>
+
+
+    <div id="cat_img1">
+        <h3 id="Cat_name1"></h3>
+        <img src="https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426">
+    </div>
+    <div id="cat_img2">
+        <h3 id="Cat_name2"></h3>
+        <img src="https://lh3.ggpht.com/kixazxoJ2ufl3ACj2I85Xsy-Rfog97BM75ZiLaX02KgeYramAEqlEHqPC3rKqdQj4C1VFnXXryadFs1J9A=s0#w=640&h=496">
+    </div>
+
+
+    <div class="nytimes-container">
+        <h3 id="nytimes-header">Cat click counter</h3>
+        <ul id="counter1" class="article-list">here the counter should appear</ul>
+    </div>
+
+    <div class="nytimes-container">
+        <h3 id="nytimes-header">Cat click counter</h3>
+        <ul id="counter2" class="article-list">here the counter should appear</ul>
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
